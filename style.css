@@ -13,9 +13,10 @@ body{
 .hero{
     display: flex;
     flex-direction: column;
-    background-color: #0b0c14;
+    background-color: #3b3a39;
     color: white;
     margin:0px;
+
 }
 .header{
     display: flex;
@@ -23,6 +24,7 @@ body{
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 10px;
     font-size: 24px;
     align-items: center;
 }
@@ -30,17 +32,44 @@ body{
     display: flex;
     justify-content: space-between;
     font-size: 18px;
-    gap: 10px;
+    gap: 18px;
     font-weight: lighter;
 }
 .hero-content{
     display: flex;
     padding: 100px;
     justify-content: space-between;
+    align-items: center;
 }
 .hero-text{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 300px;
+    width: 400px;
+    align-items: center;
+}
+.hero-text-main{
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+.hero-text-secondary{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.button{
+    background-color: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 12px;
+    color: #e5e7eb;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+/* maybe remove later cus it screws the hero a bit */
+.button:hover{
+    background-color: goldenrod;
+    padding: 12px;
 }
