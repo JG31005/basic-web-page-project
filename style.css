@@ -6,9 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: roboto;  
-    padding: 0px;
-    background-color: blue;
-    
+    padding: 0px;  
 }
 .hero{
     display: flex;
@@ -67,9 +65,100 @@ body{
     font-weight: bold;
     border: none;
 }
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 64px;
+    background-color: lightgray;
+    color: #1f2937;
+}
+.info-title{
+    display: flex;
+    margin-bottom: 32px;
+    font-weight: bold;
+    font-size: 36px;
+}
+.info-display{
+    display: flex;
+    gap: 64px;
+}
+.display{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-weight: bolder;
+    gap: 30px;
+    justify-content: space-between;
+}
+.display-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.display-sub-text{
+    font-weight: lighter;
+    font-size: 15px;
+}
 
-/* maybe remove later cus it screws the hero a bit */
+.display img{
+    border:3px solid #3b4751;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    background-color: #abb6c0;
+    gap: 10px;
+}
+.quote-text{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote-maker{
+    font-size: larger;
+    font-weight: bold;
+}
+.call-container{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+.call{
+    display: flex;
+    padding: 32px;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    gap: 50px;
+}
+.call-content{
+    color:#e5e7eb;
+    font-weight: bold;
+    font-size: 32px;
+}
+.call-subtext{
+    font-weight: 100;
+    font-size: 20px;
+}
+/* maybe remove hover later cus it screws the hero a bit */
 .button:hover{
     background-color: goldenrod;
-    padding: 12px;
 }
+.display:hover{
+    border:3px solid #3882f6;
+}
+.call .button{
+    padding: 15px;
+    font-size: 18px;
+    border:2px solid #e5e7eb;
+}
+
