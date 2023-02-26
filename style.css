@@ -112,18 +112,19 @@ body{
     justify-content: center;
     align-items: center;
     padding: 120px;
-    background-color: #abb6c0;
+    background-color: #3b3a39;
     gap: 10px;
 }
 .quote-text{
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
-    color: #1f2937;
+    color: #e5e7eb;
 }
 .quote-maker{
     font-size: larger;
     font-weight: bold;
+    color: #e5e7eb;
 }
 .call-container{
     padding: 100px;
@@ -161,4 +162,11 @@ body{
     font-size: 18px;
     border:2px solid #e5e7eb;
 }
-
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b3a39;
+    color: #e5e7eb;
+    height: 72px;
+}
