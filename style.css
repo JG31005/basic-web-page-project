@@ -154,9 +154,6 @@ body{
 .button:hover{
     background-color: goldenrod;
 }
-.display:hover{
-    border:3px solid #3882f6;
-}
 .call .button{
     padding: 15px;
     font-size: 18px;
